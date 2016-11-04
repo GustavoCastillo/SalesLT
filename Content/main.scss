@@ -1,0 +1,30 @@
+﻿h2, h4 {
+    font-weight: 800;
+}
+
+.btn-position {
+    margin-top: 3%;
+}
+
+#tblEmployee {
+    tr:hover {
+        background-color: #0094ff;
+    }
+
+    th, td {
+        text-align: center;
+    }
+
+    tr:hover td {
+        background-color: transparent;
+    }
+
+    tr:hover th {
+        background-color: #FFF;
+    }
+}
+
+
+.noshow-create, .noshow-update {
+    display: none;
+}

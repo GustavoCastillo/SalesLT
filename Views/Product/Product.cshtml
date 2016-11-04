@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "Products";
+    ViewBag.CustomValue="";
+}
+
+<row>
+    <div class="col-xs-6"><h2>List Products</h2></div>   
+    <div class="col-xs-6 text-right"><input type="button" value="New Product" class="btn btn-primary btn-position" data-toggle='modal' data-target='#myModal' onclick="mainModule.selectedAction()" /></div>  
+</row>
+<div>
+    <table id="tblEmployee" class="table table-striped">
+        <thead> </thead>
+        <tbody> </tbody>
+    </table>
+</div>
+<input type="hidden" id="modalChooser" value="" />
+
+@{Html.RenderPartial("_popupProduct");}
